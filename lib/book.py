@@ -31,6 +31,3 @@ class Book:
             print("page_count must be an integer")
 
 
-my_book = Book("Hello Weird", 5)
-print(f"{my_book.title} is {my_book.page_count} pages long")
-my_book.turn_page()
